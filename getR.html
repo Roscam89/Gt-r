@@ -6,30 +6,83 @@
     <title>Document</title>
     <style>
       .winingnumbers {
+        position: absolute;
+        left: 40%;
+        top: 19%;
         color: #000;
-        position: relative;
-        text-align: center;
-        top: 250px;
-        background-size: inherit;
+        height: 300px;
       }
       .powerball {
         color: rgb(253, 252, 252);
-        position: relative;
-        text-align: center;
-        top: 250px;
+        position: absolute;
+        left: 49%;
+        top: 19%;
+        font-size: 30px;
       }
 
       .btnGetRich {
         position: absolute;
-        left: 900px;
+        right: 50%;
+        top: 50%;
+      }
+      .circlebar {
+        width: 400px;
+        height: 70px;
+        border: 54px black;
+        position: absolute;
+        left: 30%;
+        top: 20.5%;
+        opacity: 40%;
+      }
+      .circle1,
+      .circle2,
+      .circle3,
+      .circle4,
+      .circle5,
+      .circle6 {
+        position: absolute;
+        background-color: rgb(240, 240, 245);
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        opacity: 30%;
+      }
+      .circle1 {
+        left: 238px;
+      }
+      .circle2 {
+        left: 276px;
+      }
+      .circle3 {
+        left: 316px;
+      }
+      .circle4 {
+        left: 356px;
+      }
+      .circle5 {
+        left: 395px;
+      }
+
+      .circle6 {
+        left: 113%;
+
+        background-color: rgb(245, 0, 0);
       }
     </style>
 
     <script defer src="getR.js"></script>
   </head>
-  <body style="background-color: coral">
+  <body style="background-color: rgb(83, 81, 81)">
     <h1 class="winingnumbers"></h1>
     <h2 class="powerball"></h2>
+    <div class="circlebar">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="circle4"></div>
+      <div class="circle5"></div>
+      <div class="circle6"></div>
+    </div>
     <button class="btnGetRich">Get Rich</button>
   </body>
 </html>
