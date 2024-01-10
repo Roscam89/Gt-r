@@ -1,0 +1,41 @@
+.winingnumbers {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+.powerball {
+  color: rgb(253, 252, 252);
+  font-size: 28px;
+}
+
+.btnGetRich {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+}
+.circlebar {
+  width: 350px;
+  height: 70px;
+  border: 2px black solid;
+  margin-left: 40%;
+  margin-bottom: auto;
+  text-align: center;
+}
+.circle {
+  margin-left: 4%;
+  margin-top: 15px;
+  background-color: rgb(240, 240, 245);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  float: inline-start;
+}
+#c1,
+#c2,
+#c3,
+#c4,
+#c5 {
+  font-size: 28px;
+  font-weight: bold;
+}
