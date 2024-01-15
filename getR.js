@@ -39,23 +39,23 @@ btnGetRich.addEventListener("click", function (e) {
   getWiningNumbers();
 });
 
-const comapringArr = function (a, b) {
-  while (winingNumbers.length < 5) {
-    let rWiningNumbers = Math.floor(Math.random() * 69 + 1)
-      .toString()
-      .padStart(2, 0);
-    if (!winingNumbers.includes(rWiningNumbers))
-      winingNumbers.push(rWiningNumbers);
-  }
-  winingNumbers.sort(function ([a], [b]) {
-    return a - b;
-  });
+// const comapringArr = function (a, b) {
+//   while (winingNumbers.length < 5) {
+//     let rWiningNumbers = Math.floor(Math.random() * 69 + 1)
+//       .toString()
+//       .padStart(2, 0);
+//     if (!winingNumbers.includes(rWiningNumbers))
+//       winingNumbers.push(rWiningNumbers);
+//   }
+//   winingNumbers.sort(function ([a], [b]) {
+//     return a - b;
+//   });
 
-  for (let i = 0; i < a.length; i++) {
-    if (a[i] !== b[i]) return false;
-    // winingNumbers = [];
-  }
-  return true;
-};
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] !== b[i]) return false;
+//     // winingNumbers = [];
+//   }
+//   return true;
+// };
 
 console.log(winingNumbers);
